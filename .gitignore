@@ -1,0 +1,17 @@
+# виртуальное окружение
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# настройки редакторов
+.vscode/
+.idea/
+
+# локальный конфиг
+config.yaml
+
+# логи
+*.log

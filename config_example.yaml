@@ -1,0 +1,11 @@
+data:
+  path: "data/walmart_sales.csv"
+  date_format: "%d-%m-%Y"
+
+clickhouse:
+  host: "localhost"
+  port: 9000
+  database: "walmart"
+  user: "nikita"
+  password: "Vlad77533245!"
+  secure: false
