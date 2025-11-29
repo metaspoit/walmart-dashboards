@@ -19,30 +19,38 @@
 ```
 walmart-dashboards/
 │
-├── app.py # Streamlit-приложение (дашборды)
-├── README.md
+├── app.py
+├── README.md   
 ├── requirements.txt
-├── config_example.yaml # конфигурация подключения к ClickHouse
+├── config_example.yaml
+├── .gitignore 
 │
 ├── data/
-│ └── Walmart_Sales.csv # исходный датасет
+│   └── Walmart_Sales.csv 
+│
+├── images/
+│   ├── photo_2025-11-29_21-49-57.jpg
+│   ├── photo_2025-11-29_21-50-03.jpg
+│   ├── photo_2025-11-29_21-50-07.jpg
+│   └── photo_2025-11-29_21-50-10.jpg
 │
 ├── sql/
-│ ├── create_tables.sql # создание таблиц
-│ ├── drop_tables.sql
-│ ├── daily_sales.sql # витрина продаж по неделям
-│ ├── holiday_impact.sql # сравнение праздничных/обычных недель
-│ ├── store_ranking.sql # рейтинг магазинов
-│ └── external_factors.sql # влияние температуры/топлива/CPI/безработицы
+│   ├── create_tables.sql
+│   ├── drop_tables.sql
+│   ├── daily_sales.sql
+│   ├── holiday_impact.sql 
+│   ├── store_ranking.sql
+│   └── external_factors.sql 
 │
 ├── etl/
-│ └── load_walmart_sales.py # загрузка CSV в ClickHouse
+│   └── load_walmart_sales.py
 │
-└── dashboards/
-├── product_health.md # описание дашборда "Продажи по сети"
-├── holiday_impact.md
-├── store_ranking.md
-└── external_factors.md
+└── dashboards/ 
+    ├── product_health.md
+    ├── holiday_impact.md
+    ├── store_ranking.md
+    └── external_factors.md
+
 ```
 
 
